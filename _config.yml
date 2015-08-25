@@ -1,8 +1,8 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
+title:            Digital Tree
+description:      Digital Tree
 url:              # Site url.
 baseurl:          # Base url. ( if use subdirectory-like URL )
-signoff:          Scribble # Your name.
+signoff:          weet # Your name.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 google_analytics_id: # set tracking, UA-XXXX-Y.
 
@@ -11,14 +11,8 @@ links:
     url:          /about
   - name:         Feed
     url:          /feed.xml
-  - name:         Blog
-    url:          http://chloerei.com
-    external:     true
-  - name:         Email
-    url:          mailto:chloerei@gmail.com
-    external:     true
   - name:         GitHub
-    url:          http://github.com/chloerei/scribble
+    url:          http://github.com/thewawar
     external:     true
 
 # pygments:         true
