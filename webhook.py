@@ -13,6 +13,7 @@ app = Flask(__name__)
 def webhook():
     data = json.loads(request.data)
     if data['actor']['username'].lower() == 'thewawar':
+        os.system('git pull')
         os.system('jekyll build')
         return 'ok'
 
