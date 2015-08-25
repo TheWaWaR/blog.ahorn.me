@@ -15,3 +15,11 @@ This theme is made by me. You have a nice day. ♥
 ## Modify by Rei
 
 http://chloerei.com
+
+## Test
+> This is quote
+
+``` python
+def test(a, b):
+    print a, b, "Chars", 123
+```

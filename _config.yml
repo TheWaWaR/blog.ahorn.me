@@ -21,7 +21,8 @@ links:
     url:          http://github.com/chloerei/scribble
     external:     true
 
-pygments:         true
+# pygments:         true
+highlight:         true
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
