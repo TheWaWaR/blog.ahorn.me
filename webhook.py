@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 #coding: utf-8
 
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
+    print request.headers
     print request.args
     print request.form
     print request.data
