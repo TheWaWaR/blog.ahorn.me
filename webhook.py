@@ -11,10 +11,10 @@ app = Flask(__name__)
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
-    print request.headers
     data = json.loads(request.data)
-    if 'push' in data:
-        os.system('git pull')
+    if data['actor']['username'].lower() == 'thewawar':
+        os.system('rake build')
+        return 'ok'
 
 
 if __name__ == '__main__':
