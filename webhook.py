@@ -2,13 +2,13 @@
 # coding: utf-8
 
 import os
-import json
 import hmac
 import hashlib
 
 from flask import Flask, request, current_app
 
 app = Flask(__name__)
+app.config['HUB_SECRET'] = os.getenv('HUB_SECRET')
 
 
 def verify_sign(hub_secret, sign, payload):
