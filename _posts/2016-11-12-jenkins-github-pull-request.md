@@ -33,7 +33,7 @@ title: Jenkins 入门教程
   - Github 中进入 Settings > Personal access tokens > Generate new token, 选中 repo, admin:repo_hook
   - Credentials 添加完成后，点击 Test Credentials > 选中Test basic connection to GitHub > Connect to API
 
-# Jenkins 使用
+# Jenkins 基本用例
 
 ## 添加一个自动 build Pull Request 的 job
 
